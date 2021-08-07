@@ -22,8 +22,6 @@ URL = 'https://coincheck.com/api/rate/'
 COINS = {'BTC': 'btc_jpy', 'ETH': 'eth_jpy', 'XEM': 'xem_jpy', 'BCH': 'bch_jpy'}
 # ---固定値---
 
-
-# 仮想通貨コインの
 def virtualCoin_value_get( coin_type ):
 	"""
 	仮想通貨コインの現在価格を取得する。	
